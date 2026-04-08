@@ -59,6 +59,7 @@ class FieldReportApp:
             page.padding = 0
             page.window.min_width = 300
             page.window.min_height = 600
+            page.window.icon = "assets/icon.ico"  # Set window icon
             
             logger.info("Setting up application routes...")
             

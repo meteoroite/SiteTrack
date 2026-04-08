@@ -38,7 +38,7 @@ def main(page: ft.Page):
 if __name__ == "__main__":
     try:
         logger.info("Initializing Flet application...")
-        ft.app(target=main)
+        ft.app(target=main, assets_dir="assets")
     except KeyboardInterrupt:
         logger.info("Application interrupted by user")
     except Exception as e:
