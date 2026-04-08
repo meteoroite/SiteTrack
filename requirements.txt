@@ -1,4 +1,24 @@
+ url=https://github.com/meteoroite/SiteTrack/blob/main/requirements.txt
+# Core Framework
 flet==0.21.2
+
+# Document Generation
 python-docx==1.1.0
-Pillow==10.1.0
 reportlab==4.0.7
+
+# Image Processing
+Pillow==10.1.0
+
+# Database
+# SQLite3 is included with Python
+
+# Utilities
+python-dateutil==2.8.2
+
+# Logging (optional, can use built-in logging)
+# Included in Python standard library
+
+# Development/Testing (optional)
+# pytest==7.4.0
+# pytest-cov==4.1.0
+# black==23.9.1
