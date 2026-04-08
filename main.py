@@ -1,7 +1,3 @@
- url=https://github.com/meteoroite/SiteTrack/blob/main/main.py
-"""
-SiteTrack - Entry point for the application
-"""
 import flet as ft
 import sys
 from pathlib import Path
